@@ -18,6 +18,10 @@ const create_user = async (req,res) => {
     res.status(200).send({'users': true})
 }
 
+const update_user = async (req,res) => {
+    res.status(200).send({'users': true})
+}
+
 const change_image = async (req,res) => {
     res.status(200).send({'users': true})
 }
