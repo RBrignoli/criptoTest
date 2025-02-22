@@ -3,7 +3,6 @@ const bcryptjs = require('bcryptjs')
 const User = require('../models/models.js')
 const { list_users, get_user, delete_user, create_user, update_user } = require('../controllers/users')
 
-// Mock the User model
 jest.mock('../models/models.js', () => {
     return {
         find: jest.fn(),
