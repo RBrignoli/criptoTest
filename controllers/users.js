@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 import bycryptjs from 'bcryptjs'
-import User from '../models/models.js'
+import {User} from '../models/models.js'
 
 
 const list_users = async (req, res) => {
