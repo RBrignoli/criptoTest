@@ -3,7 +3,6 @@ import { Coin } from '../models/models.js';
 const COINGECKO_API_URL = 'https://api.coingecko.com/api/v3';
 
 const get_url_to_call = (url, query = '') => {
-    console.log(COINGECKO_API_URL + url + '?x_cg_demo_api_key=' + process.env.COINGECKO_API_KEY + query);
     return COINGECKO_API_URL + url + '?x_cg_demo_api_key=' + process.env.COINGECKO_API_KEY + query;
 }
 
